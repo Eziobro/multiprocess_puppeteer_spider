@@ -1,0 +1,16 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+
+#idea
+.idea
+
+#git
+.git
+
+# 过滤爬取到本地的图片
+rules/**/img
+
+# 数据库账号
+utils/database/databaseConfig.js
